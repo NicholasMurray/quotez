@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders the quote correctly 1`] = `
+Array [
+  <h2>
+    "
+    Hello World
+    "
+  </h2>,
+  <h3>
+    <i>
+      A.N. Other
+    </i>
+  </h3>,
+]
+`;

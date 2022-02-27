@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders the loader correctly 1`] = `
+.c0 {
+  height: 100px;
+  width: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 svg {
+  fill: #66c7f4;
+}
+
+<div
+  className="c0"
+>
+  <svg
+    enableBackground="new 0 0 0 0"
+    id="L5"
+    version="1.1"
+    viewBox="0 0 100 100"
+    x="0px"
+    xmlSpace="preserve"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    y="0px"
+  >
+    <circle
+      cx="6"
+      cy="50"
+      r="6"
+      stroke="none"
+    >
+      <animateTransform
+        attributeName="transform"
+        begin="0.1"
+        dur="0.5s"
+        repeatCount="indefinite"
+        type="translate"
+        values="0 15 ; 0 -15; 0 15"
+      />
+    </circle>
+    <circle
+      cx="30"
+      cy="50"
+      r="6"
+      stroke="none"
+    >
+      <animateTransform
+        attributeName="transform"
+        begin="0.2"
+        dur="0.5s"
+        repeatCount="indefinite"
+        type="translate"
+        values="0 10 ; 0 -10; 0 10"
+      />
+    </circle>
+    <circle
+      cx="54"
+      cy="50"
+      r="6"
+      stroke="none"
+    >
+      <animateTransform
+        attributeName="transform"
+        begin="0.3"
+        dur="0.5s"
+        repeatCount="indefinite"
+        type="translate"
+        values="0 5 ; 0 -5; 0 5"
+      />
+    </circle>
+  </svg>
+</div>
+`;

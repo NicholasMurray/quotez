@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders the default button correctly 1`] = `
+.c0 {
+  background-color: #66c7f4;
+  border-radius: 5px;
+  color: #2d3047;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.c0:disabled {
+  background-color: grey;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`it renders the disabled button correctly 1`] = `
+.c0 {
+  background-color: #66c7f4;
+  border-radius: 5px;
+  color: #2d3047;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.c0 true:disabled {
+  background-color: grey;
+}
+
+<button
+  className="c0"
+  disabled={true}
+/>
+`;
