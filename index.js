@@ -9,7 +9,7 @@ const fs = require('fs');
 dotenvExpand.expand(myEnv);
 
 const app = express();
-const API_PORT = process.env.API_PORT;
+const API_PORT = 8081;
 const PORT = process.env.PORT || API_PORT;
 const FRONTEND_URI = process.env.FRONTEND_URI;
 

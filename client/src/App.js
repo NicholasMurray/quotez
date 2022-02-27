@@ -10,7 +10,7 @@ function App() {
 
   const fetchProgrammingQuote = async () => {
     setIsLoading(true);
-    const response = await fetch('http://localhost:8888/api/random-quote');
+    const response = await fetch('http://localhost:8081/api/random-quote');
     const programmingQuote = await response.json();
     setQuote(programmingQuote);
     setIsLoading(false);
