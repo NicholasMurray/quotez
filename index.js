@@ -9,7 +9,7 @@ const fs = require('fs');
 dotenvExpand.expand(myEnv);
 
 const app = express();
-const API_PORT = process.env.API_PORT;
+const API_PORT = 8081;
 const PORT = process.env.PORT || API_PORT;
 const FRONTEND_URI = process.env.FRONTEND_URI;
 
@@ -51,8 +51,8 @@ app.get('/api/random-quote', (req, res) => {
 
 // All remaining requests return the React app, so it can handle routing.
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './client/build', 'index.html'));
-  // res.redirect(`${FRONTEND_URI}`);
+  // res.sendFile(path.resolve(__dirname, './client/build', 'index.html'));
+  res.redirect(`${FRONTEND_URI}`);
 });
 
 app.listen(PORT, () => {
