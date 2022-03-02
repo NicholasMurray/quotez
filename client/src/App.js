@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     fetchProgrammingQuote();
     return () => {
-      setQuote({}); // This worked for me
+      setQuote({});
     };
   }, []);
 
